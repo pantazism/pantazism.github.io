@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Μαρίνος Πανταζής - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        h2 {
+            color: #ff7f00;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        a {
+            color: #004080;
+            text-decoration: none;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 800px;
+        }
+
+        .skill-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .skill-card:hover {
+            transform: scale(1.05);
+        }
+
+        .skill-icon {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #004080;
+        }
+
+        .skill-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .skill-description {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .project-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .project-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card h3 {
+            margin: 20px 0 10px;
+            color: #333;
+        }
+
+        .project-card p {
+            margin: 0 20px 20px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ΜΑΡΙΝΟΣ ΠΑΝΤΑΖΗΣ</h1>
+        <h2>Τεχνικός Εφαρμογών Πληροφορικής</h2>
+    </header>
+
+    <section>
+        <h2>Σχετικά με εμένα</h2>
+        <p>
+            Είμαι απόφοιτος Ι.Ε.Κ. στην ειδικότητα Τεχνικών Εφαρμογών
+            Πληροφορικής, καθώς και φοιτητής του τμήματος Βιβλιοθηκονομίας,
+            Αρχειονομίας και Συστημάτων Πληροφόρησης της Σχολής Κοινωνικών
+            Επιστημών του Διεθνούς Πανεπιστημίου της Ελλάδος.
+        </p>
+        <p>
+            Κύριο ενδιαφέρον μου είναι η δημιουργία καλοσχεδιασμένων
+            ιστότοπων, χρησιμοποιώντας τόσο το WordPress και το Drupal,
+            όσο και γλώσσες όπως η HTML, το CSS και η JavaScript.
+            Επιπρόσθετα, μου αρέσει η δημιουργία προγραμμάτων Η/Υ με
+            κύρια γλώσσα την Python.
+        </p>
+    </section>
+
+    <section>
+        <h2>Δεξιότητες πληροφορικής</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">🌎</div>
+                <div class="skill-title">Κατασκευή, Διαχείριση και Συντήρηση Ιστότοπων</div>
+                <br>
+                <div class="skill-description">WordPress, Drupal, HTML, CSS, JavaScript, CPanel</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🖥️</div>
+                <div class="skill-title">Γλώσσες Προγραμματισμού</div>
+                <br>
+                <div class="skill-description">Python, C++</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🗃️</div>
+                <div class="skill-title">Βάσεις Δεδομένων</div>
+                <br>
+                <div class="skill-description">Microsoft Office Access, LibreOffice Base</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <div class="skill-title">Δημιουργία και Σύνθεση Γραφικών</div>
+                <br>
+                <div class="skill-description">Adobe Photoshop, GIMP, Blender</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🎞️</div>
+                <div class="skill-title">Επεξεργασία Βίντεο</div>
+                <br>
+                <div class="skill-description">Adobe Premiere, OpenShot</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🔊</div>
+                <div class="skill-title">Καταγραφή και Επεξεργασία Ήχου</div>
+                <br>
+                <div class="skill-description">Audacity</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="project-container">
+            <a href="https://astrobeam.gr/">
+                <div class="project-card">
+                    <h3>PROJECT ASTRO</h3>
+                    <p>
+                        Συμμετοχή στην ανάπτυξη και συντήρηση του ιστότοπου του project ASTRO
+                        (Aristotle Student Telescope for Radioastronomy Observations) της
+                        φοιτητικής ομάδας BEAM (Beyond Earth Aristotle Missions) σε συνεργασία
+                        με τον τομέα Αστροφυσικής, Αστρονομίας και Μηχανικής του Τμήματος
+                        Φυσικής του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης.
+                    </p>
+                </div>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
